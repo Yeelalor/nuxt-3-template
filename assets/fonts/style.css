@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'Noto Sans Lao UI';
+	src: url('NotoSansLao-Regular.ttf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'num';
+	src: url('NotoSansLinearB-Regular.ttf');
+	font-weight: normal;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+input,
+.entry-title,
+.entry-header,
+v-card-title {
+	font-family: 'Noto Sans Lao UI', 'num' !important;
+}
+.primary-bg {
+	background: linear-gradient(to top, #1f3d53, #2a5064, #426e74) !important;
+	color: white !important;
+}
