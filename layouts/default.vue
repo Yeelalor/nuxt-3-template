@@ -5,7 +5,6 @@
             <div class="text-center">
                 <div style="display: flex;justify-content: start;align-items: center;flex-direction: column;"
                     class="pt-4 pl-3">
-                    <!-- <img src="../assets/icons/ldb.webp" width="100" style="border-radius: 100px;" /> -->
                     <div class="pt-4" style="line-height: 18px">
                         LOGO
                     </div>
@@ -13,9 +12,9 @@
             </div>
             <div style="display: flex;flex-direction: column;justify-content: space-between;">
                 <v-list>
-                    <v-list-item to="/home" v-for="i in 4" :key="i">
+                    <v-list-item to="/home">
                         <v-list-item-title class="d-flex align-center">
-                            <Icon name="arcticons:itax" size="25" color="white" />
+                            <v-icon>mdi-home</v-icon>
                             <span class="ml-2">Home</span>
                         </v-list-item-title>
                     </v-list-item>
@@ -49,8 +48,6 @@ const clipped = ref<boolean>(false)
 </script>
 <style>
 .bgggs {
-    /* background-image: url('../assets/icons/BG.png'); */
-    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -48,30 +48,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      api: ''
+      api: 'https://api.restful-api.dev/'
     }
-  },
-  pwa: {
-    manifest: {
-      name: 'HmongDay',
-      short_name: 'MD',
-      description: 'HMD',
-      theme_color: '#ffffff',
-      background_color: '#ffffff',
-      display: 'standalone',
-      start_url:'/',
-      icons: [
-        {
-          src: '/HD.png',
-          sizes: '192x192',
-          type: 'image/png',
-        },
-        {
-          src: '/HD.png',
-          sizes: '192x192',
-          type: 'image/png',
-        }
-      ],
-    },
   },
 })
